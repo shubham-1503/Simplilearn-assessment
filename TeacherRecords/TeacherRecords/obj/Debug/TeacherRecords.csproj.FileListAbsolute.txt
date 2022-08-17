@@ -1,0 +1,8 @@
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\bin\Debug\TeacherRecords.exe.config
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\bin\Debug\TeacherRecords.exe
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\bin\Debug\TeacherRecords.pdb
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\obj\Debug\TeacherRecords.csproj.AssemblyReference.cache
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\obj\Debug\TeacherRecords.csproj.SuggestedBindingRedirects.cache
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\obj\Debug\TeacherRecords.csproj.CoreCompileInputs.cache
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\obj\Debug\TeacherRecords.exe
+C:\Users\shubham.pawar\source\repos\TeacherRecords\TeacherRecords\obj\Debug\TeacherRecords.pdb
