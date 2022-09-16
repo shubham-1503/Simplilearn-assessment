@@ -1,0 +1,25 @@
+﻿@model Cart
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Purchase</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Cost"></label>
+            <input asp-for="Cost" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Quantity"></label>
+            <input asp-for="Quantity" class="form-control" />
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" style="width:150px">Add to Cart</button>
+        <a asp-controller="Laptop" asp-action="Index" class="btn btn-secondary" style="width:200px">Back to Shopping !!</a>
+    </div>
+</form>

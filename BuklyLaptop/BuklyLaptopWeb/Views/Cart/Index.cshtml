@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Cart>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Checkout</h2>
+<table class="table table-bordered table-striped" style="width:80%" align="center">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Cost
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td width="20%">
+                    @obj.Name
+                    
+                </td>
+                <td width="20%">
+                    @obj.Cost
+                    
+                </td>
+                <td width="20%">
+                    @obj.Quantity
+                    
+                </td>
+                <td width="20%" align="center">
+                    <button type="submit" class="btn btn-primary" style="width:150px" >Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+
+<Div>
+    <label>Grand Total : 130000</label>
+</Div>
+
+
+<br />
+
+<div><button type="submit" class="btn btn-primary" style="width:150px" >Pay</button></div>
+
+
+

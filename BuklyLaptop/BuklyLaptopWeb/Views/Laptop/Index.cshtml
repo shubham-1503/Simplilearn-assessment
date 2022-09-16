@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Laptop>
+@{
+    ViewData["Title"] = "Index";
+}
+<br />
+<h3>Laptop List</h3>
+<br />
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Colour
+            </th>
+            <th>
+                Cost
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td width="18%">
+                    @obj.Name
+                </td>
+                <td width="18%">
+                    @obj.Details
+                </td>
+                <td width="18%">
+                    @obj.Cost
+                </td>
+                <td width="23%" align="center">
+                    <img src="@obj.Image" height="200" width="200" align="middle">   
+                </td>
+                <td width="23%" align="center" >
+                    <a class="btn btn-primary" asp-controller="Cart" asp-action="Purchase" asp-route-ID="@obj.Id"><i class="bi bi-cart-fill"></i> &nbsp; Purchase</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
